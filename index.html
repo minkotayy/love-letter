@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Gửi cậu...</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Tim rơi -->
+  <canvas id="heartCanvas"></canvas>
+
+  <!-- Nhạc nền -->
+  <audio autoplay loop>
+    <source src="https://cdn.pixabay.com/download/audio/2022/03/14/audio_7701ba799e.mp3?filename=lofi-study-112191.mp3" type="audio/mpeg">
+  </audio>
+
+  <div class="container">
+    <h1>Gửi cậu 💌</h1>
+    <p>Tớ viết những dòng này chỉ để nói một điều thật lòng...</p>
+    <p><strong>Tớ thích cậu.</strong></p>
+    <p>Không vì lý do gì cụ thể, chỉ là mỗi lần nhìn thấy tin nhắn của cậu, tớ lại thấy ngày mình tươi hơn một chút...</p>
+    <p>Nếu cậu cũng có một chút cảm xúc giống tớ... thì mình hãy bắt đầu một điều gì đó, nhẹ nhàng thôi, được không?</p>
+    <p>Từ một người vẫn luôn dõi theo cậu – <em>[Tuấn Minh]</em></p>
+    
+    <!-- Nút popup -->
+    <button onclick="showPopup()">Tớ cũng thích cậu 💖</button>
+  </div>
+
+  <!-- Popup -->
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <p>Thật sao? 🥺</p>
+      <p>Tớ vui lắm luôn đó... Cảm ơn cậu 💘</p>
+      <button onclick="closePopup()">Đóng lại nhé</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
